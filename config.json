@@ -1,7 +1,7 @@
 {
     "logConnections": true,
     "connectionSend": null,
-    "rangeStart": 1,
+    "rangeStart": 1000,
     "rangeEnd": 65535,
     "connectionReply": "HTTP/1.1 200 OK\r\n\r\nhello pookie",
     "connectionTimeout": 5000,
