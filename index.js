@@ -9,7 +9,7 @@ const servers = [];
 const logsDirectory = config.logsDirectory ? path.resolve(__dirname, config.logsDirectory) : null;
 if (logsDirectory && !fs.existsSync(logsDirectory)) fs.mkdirSync(logsDirectory); // TODO
 
-for (let port = 1; port <= 65535; port++) {
+for (let port = config.rangeStart; port <= config.rangeEnd; port++) {
     if (config.skipPorts.includes(port)) {
         info(null, `Skipping port: ${port}`);
         continue;
