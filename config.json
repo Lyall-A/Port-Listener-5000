@@ -1,0 +1,9 @@
+{
+    "logConnections": true,
+    "connectionSend": null,
+    "connectionReply": "HTTP/1.1 200 OK\r\n\r\nhello pookie",
+    "connectionTimeout": 5000,
+    "getIpInfo": true,
+    "skipPorts": [],
+    "logsDirectory": "logs"
+}
